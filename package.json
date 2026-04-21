@@ -2,16 +2,11 @@
   "name": "ai-demo",
   "type": "module",
   "private": true,
-  "scripts": {
-    "build": "nuxt build",
-    "dev": "nuxt dev",
-    "generate": "nuxt generate",
-    "preview": "nuxt preview",
-    "postinstall": "nuxt prepare"
+  "dependencies": {},
+  "devDependencies": {
+    "@types/bun": "latest"
   },
-  "dependencies": {
-    "nuxt": "^4.4.2",
-    "vue": "^3.5.31",
-    "vue-router": "^5.0.4"
+  "peerDependencies": {
+    "typescript": "^5"
   }
 }
